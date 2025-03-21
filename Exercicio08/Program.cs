@@ -1,5 +1,7 @@
 ﻿namespace Exercicio08;
 
+// 8. Crie um programa para verificar se um número é primo.
+
 internal class Program
 {
     static void Main()
@@ -9,11 +11,11 @@ internal class Program
 
         int numero = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine(verificadorDePrimo(numero) ? "O número é primo" : "O número não é primo");
+        Console.WriteLine(VerificadorDePrimo(numero) ? "O número é primo" : "O número não é primo");
         Console.ReadKey();
     }
 
-    static bool verificadorDePrimo(int numero)
+    static bool VerificadorDePrimo(int numero)
     {
         if (numero < 2) 
             return false;

@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-namespace Exercicio07;
+﻿namespace Exercicio07;
 
 // 7. Crie um programa para calcular a média ponderada de duas provas realizadas por um aluno
 

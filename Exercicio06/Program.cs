@@ -8,7 +8,7 @@ internal class Program
     {
         Console.WriteLine("-+=Média harmônica de notas=+-");
         float[] notas = new float[5];
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < notas.Length; i++)
         {
             Console.Write($"Digite a {i+1}º nota -> ");
             notas[i] = Convert.ToSingle(Console.ReadLine()!);
